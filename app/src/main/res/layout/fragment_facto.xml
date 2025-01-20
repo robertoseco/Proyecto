@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FactoFragment"
+    android:orientation="vertical">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ToggleButton
+        android:id="@+id/toggle_star"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:scaleX="1.1"
+        android:scaleY="1.1"
+        android:background="@drawable/star_button_states"
+        android:textOff=""
+        android:textOn=""
+         />
+
+    <ImageView
+        android:layout_gravity="center"
+        android:id="@+id/imageView"
+        android:layout_width="265dp"
+        android:layout_height="249dp"
+        tools:src="@tools:sample/avatars" />
+    <TextView
+        android:id="@+id/facto"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/hello_blank_fragment" />
+    <Button
+        android:layout_gravity="center"
+        android:layout_marginTop="200dp"
+        android:id="@+id/button"
+        android:layout_width="138dp"
+        android:layout_height="55dp"
+        android:text="Cargar Dato"
+        app:cornerRadius="0dp"
+        android:backgroundTint="@color/button_brown" />
+
+
+
+
+
+</LinearLayout>
